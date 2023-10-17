@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">XicoCart</string>
+    <string name="barcode_value">Código de barras</string>
+    <string name="description_value">Descripción</string>
+    <string name="cost_value">Precio de compra</string>
+    <string name="brand_value">Marca</string>
+    <string name="price_value">Precio de venta</string>
+    <string name="stock_value">Existencias</string>
+    <string name="availability_value">Disponibilidad</string>
+    <string name="products">productos:</string>
+    <string name="product">producto:</string>
+    <string name="delete_value">Eliminar</string>
+    <string name="btn_update">Actualizar</string>
+</resources>

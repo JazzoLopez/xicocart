@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:padding="30dp"
+    android:layout_marginEnd="5dp"
+    android:background="@color/fondo"
+    tools:context=".HomeActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tb_productos"
+        android:hint="@string/product"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/barcode_value"
+        android:id="@+id/txt_barcode"
+        android:layout_below="@id/tb_productos"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/description_value"
+        android:id="@+id/txt_description"
+        android:layout_below="@+id/txt_barcode"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/brand_value"
+        android:id="@+id/txt_brand"
+        android:layout_below="@id/txt_description"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cost_value"
+        android:id="@+id/txt_cost"
+        android:layout_below="@id/txt_brand"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/black"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_cost"
+        android:hint="@string/price_value"
+        android:id="@+id/txt_price"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/stock_value"
+        android:id="@+id/txt_stock"
+        android:layout_below="@id/txt_price"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/btn_update"
+        android:id="@+id/btn_save"
+        android:layout_below="@id/txt_stock"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentStart="true"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/button_update"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_delete"
+        android:layout_below="@id/txt_stock"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/button_delete"
+        android:hint="@string/delete_value"
+        android:layout_alignParentEnd="true"
+        tools:ignore="DuplicateIds" />
+
+</RelativeLayout>
