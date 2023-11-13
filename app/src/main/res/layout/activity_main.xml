@@ -18,6 +18,7 @@
         android:layout_marginBottom="20dp"
         android:layout_marginTop="20dp"
         android:gravity="center"
+        android:textColorHighlight="@color/black"
         android:textColorHint="@color/black"
 
         />
@@ -31,6 +32,9 @@
         android:layout_marginTop="5dp"
         android:gravity="center"
         android:textColorHint="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColor="@color/black"
+
         android:inputType="number"
         />
 
@@ -38,6 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/description_value"
+        android:textColor="@color/black"
         android:id="@+id/txt_description"
         android:layout_below="@+id/txt_barcode"
         android:layout_marginTop="5dp"
@@ -49,6 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/brand_value"
+        android:textColor="@color/black"
         android:id="@+id/txt_brand"
         android:layout_below="@id/txt_description"
         android:layout_marginTop="5dp"
@@ -59,6 +65,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:hint="@string/cost_value"
         android:id="@+id/txt_cost"
         android:layout_below="@id/txt_brand"
@@ -75,6 +82,7 @@
         android:hint="@string/price_value"
         android:id="@+id/txt_price"
         android:layout_marginTop="5dp"
+        android:textColor="@color/black"
         android:gravity="center"
         android:textColorHint="@color/black"
         android:inputType="number"
@@ -82,6 +90,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:hint="@string/stock_value"
         android:id="@+id/txt_stock"
         android:layout_below="@id/txt_price"
@@ -107,6 +116,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/lv_products"
+
         android:gravity="center"
         android:layout_below="@id/btn_save"
         android:layout_marginTop="10dp"

@@ -3,9 +3,11 @@ package com.example.xicocart;
 import android.provider.BaseColumns;
 
 public class GroceriesContract {
-    private GroceriesContract(){} //No podemos heredar pero si instanciar
+    private GroceriesContract(){
+
+    } //No podemos heredar ni instanciar
         public static final class Product implements BaseColumns{  //Interfaz
-        //POR CADA ATRIBUTO DEBEMOS PONER UNA CONSTANTE
+        //POR CADA ATRIBUTO DEBEMOS PONER UNA CONSTANTE PARA DESPUES SOLO LLAMARLAS
         public static final String TABLE_NAME = "products";
         public static final String COLUMN_NAME_BARCODE = "barcode";
         public static final String COLUMN_NAME_DESCRIPTION = "description";

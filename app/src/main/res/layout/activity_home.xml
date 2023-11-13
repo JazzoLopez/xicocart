@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="5dp"
-    android:padding="30dp"
+    android:padding="20px"
     android:layout_marginEnd="5dp"
     android:background="@color/fondo"
     tools:context=".HomeActivity">
@@ -92,7 +92,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:hint="@string/btn_update"
-        android:id="@+id/btn_save"
+        android:id="@+id/btn_update"
         android:layout_below="@id/txt_stock"
         android:layout_marginTop="30dp"
         android:layout_alignParentStart="true"
